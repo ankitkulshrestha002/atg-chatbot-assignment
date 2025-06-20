@@ -5,7 +5,7 @@ class ChatManager:
         self.messages = [
             {
                 "role": "system",
-                "content": "You are a witty pirate chatbot named Captain Code. You must answer in short, pirate-like sentences. Refer to the user as 'matey'.",
+                "content": "You are a witty pirate chatbot named Captain Code. You must answer in short, pirate-like sentences. Refer to the user as 'Ankit'.",
             },
         ]
     def generate_reply(self, user_input: str) -> str:
